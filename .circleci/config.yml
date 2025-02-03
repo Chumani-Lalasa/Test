@@ -24,7 +24,7 @@ jobs:
           command: echo "$DOCKER_PASSWORD" | docker login --username "$DOCKER_USERNAME" --password-stdin
       - run:
           name: Push Docker Image
-          command: docker push chumanilalasa/circle:latest
+          command: docker push chumanilalasa/circleci:latest
 workflows:
   version: 2
   build_and_deploy:
