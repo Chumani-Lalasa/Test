@@ -1,0 +1,14 @@
+{
+    "dependencies": {
+        "express": "*"
+    },
+    "scripts": {
+        "start": "node app.js"
+    },
+    "name": "basic-nodejs",
+    "version": "1.0.0",
+    "main": "app.js",
+    "devDependencies": {},
+    "author": "Chumani",
+    "description": "NodeJS Project with Express FrameWork and Running in Docker Container"
+}
