@@ -1,14 +1,22 @@
 {
-    "dependencies": {
-        "express": "*"
-    },
-    "scripts": {
-        "start": "node app.js"
-    },
-    "name": "basic-nodejs",
-    "version": "1.0.0",
-    "main": "app.js",
-    "devDependencies": {},
-    "author": "Chumani",
-    "description": "NodeJS Project with Express FrameWork and Running in Docker Container"
+  "name": "cicleci",
+  "version": "1.0.0",
+  "description": "to deploy in circleci",
+  "main": "script.js",
+  "dependencies": {
+    "express": "*"
+  },
+  "scripts": {
+    "start": "node script.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chumani-Lalasa/Test.git"
+  },
+  "author": "chumani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chumani-Lalasa/Test/issues"
+  },
+  "homepage": "https://github.com/Chumani-Lalasa/Test#readme"
 }
